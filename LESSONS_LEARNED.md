@@ -25,7 +25,7 @@ Final deployable set:
 - `me/linkedin.pdf`
 
 2. Simplified dependencies to only what is used.
-Kept runtime requirements minimal and pinned Gradio for consistency.
+Kept runtime requirements minimal and removed direct Gradio pinning to avoid SDK conflicts on Spaces.
 
 3. Hardened app startup behavior for hosted runtime.
 - Explicit host/port binding for Gradio.
@@ -44,9 +44,12 @@ Confirmed app availability through Space URL and Gradio `/config` endpoint.
 3. Keep secrets in platform secret managers only.
 4. Validate startup path and environment assumptions before deployment.
 5. After each deploy, verify app health immediately using URL and logs.
+6. Use `uv` locally, but expect `pip` in hosted builds.
+Hugging Face Spaces installs from `requirements.txt` with `pip` internally. Local development can still use `uv` (`uv sync`, `uv run`) while deployment remains `requirements.txt`-driven.
 
 ## Interview-Ready Narrative
 
 - Problem: deployment instability and noisy repository scope.
 - Approach: reduced system complexity, tightened dependency/runtime config, and validated production behavior.
 - Result: stable public Space deployment with a clean, professional, shareable project footprint.
+
