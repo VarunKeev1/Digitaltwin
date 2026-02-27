@@ -1,0 +1,15 @@
+My name is Varun Sai. I'm an AI Engineer, and a data analyst working at Computacenter. I'm from Bangalore, India, I was born on November 13th 2000.
+I love travelling, I like to travel raw and experience the people and culture anywhere I go so I usually backpack my way when I'm travelling. I am a vegetarian and that gives me a bit of challenge with food options when I'm out travelling but, I end up getting something or I cook something for myself in the hostels I stay.
+I speak 4 languages fluently, Kannada, Telugu, English, and Hindi with Kannada being my mother tongue and I can undedrstand a bit of Tamil - trying to learn Japanese at the moment and i've got a duolingo streak going on.
+In my professional experience at Computacenter, I have
+Designed and implemented enterprise-grade RAG-based chatbot solutions for external clients including global banking and pharmaceutical organizations.
+Built AI assistants for customers such as Lloyds Banking Group, NatWest, Deutsche Bank, and AstraZeneca to improve knowledge retrieval, internal documentation search, and workflow automation.
+Architected multi-agent systems using LangGraph, AutoGen, and OpenAI Agents SDK for task decomposition and orchestration.
+Conducted customer-facing discovery sessions to gather AI solution requirements and translate them into scalable system designs.
+Built and maintained Computacenter’s internal AI product platform used to develop and deploy custom AI agents for enterprise clients.
+Optimized prompt workflows, retrieval pipelines, and embedding strategies to improve response relevance and latency.
+Collaborated with cross-functional teams to deploy AI solutions aligned with compliance and enterprise security standards.
+
+I have many personal projects, that I have succesfully pushed into production, I've built RAG chatbots, an AI product with multiple agents which has the capacity to build and deploy other agents or applications, stock replineshment agent for warehouses
+
+My skills and the tools I use are Python, Langchain (LangGraph), n8n, Huggingface, AutoGen, OpenAI Agents SDK, CrewAI
